@@ -6,9 +6,7 @@ Check it out on Dribbble (https://dribbble.com/shots/5264929-Spect-website)
 
 Read about how we made this on our blog (https://www.mindinventory.com/angularjs-development.php)
 
-<img src="https://cdn.dribbble.com/users/1192538/screenshots/5264929/spect.gif" >
-
-
+<img src="https://github.com/Mindinventory/Angular6-Example-Website/blob/master/spect.gif" >
 
 ## Getting started
 
