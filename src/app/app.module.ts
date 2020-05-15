@@ -25,6 +25,7 @@ import { AppComponent } from 'app/app.component';
 import { LayoutModule } from 'app/layout/layout.module';
 import { SampleModule } from 'app/main/sample/sample.module';
 import { AboutComponent } from './about/about.component';
+//import { CausesComponent } from './causes/causes.component'
 import { HomeComponent } from './home/home.component';
 import {ContactUsComponent} from "./contact-us/contact-us.component";
 import {ShopComponent} from "./shop/shop.component";
@@ -35,6 +36,7 @@ import {ForgotPasswordComponent} from "./auth/forgot-password/forgot-password.co
 import {ForgotPasswordModule} from "./auth/forgot-password/forgot-password.module";
 import {FaqComponent}  from "./help/faq.component";
 import {FaqModule}  from "./help/faq.module";
+//import { AgGridModule } from 'ag-grid-angular';
 
 
 const appRoutes: Routes = [
@@ -50,6 +52,11 @@ const appRoutes: Routes = [
         path      : 'contact-us',
         component: ContactUsComponent
     },
+   /* {
+         path    : 'causes',
+         component: CausesComponent
+
+    },*/
     {
         path      : 'login',
         component: LoginComponent
@@ -91,6 +98,7 @@ const appRoutes: Routes = [
         AboutComponent,
         HomeComponent,
         ContactUsComponent,
+        //CausesComponent,
         ShopComponent,
         LoginComponent,
         RegisterComponent
@@ -105,6 +113,7 @@ const appRoutes: Routes = [
         BrowserModule,
         BrowserAnimationsModule,
         TranslateModule.forRoot(),
+       // AgGridModule.withComponents([]),
 
         // Material moment date module
         MatMomentDateModule,

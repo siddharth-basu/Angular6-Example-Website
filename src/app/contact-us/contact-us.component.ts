@@ -13,6 +13,7 @@ import * as $ from 'jquery';
     styleUrls: ['./contact-us.component.scss']
 })
 export class ContactUsComponent implements OnInit {
+
     form: FormGroup;
     formErrors: any;
     private _unsubscribeAll: Subject<any>;

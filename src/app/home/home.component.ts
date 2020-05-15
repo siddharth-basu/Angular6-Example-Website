@@ -46,8 +46,8 @@ export class HomeComponent implements OnInit {
     fuseConfig: any;
     navigation: any;
     imageUrls: (string | IImage)[] = [
-        {url: 'assets/images/1.png', caption: 'Seeing the world <br/> differently'},
-        {url: 'assets/images/2.png', caption: 'Different world <br/> with different view'},
+        {url: 'assets/images/worldcartoon.jpeg', caption: 'Seeing the world <br/> differently'},
+        {url: 'assets/images/herostance.png', caption: 'Different world <br/> with different view'},
     ];
     height: string = '100vh';
     minHeight: string;
